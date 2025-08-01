@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #promociones{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+
+  #titulo{
+    display: flex;
+    justify-content: flex-start; 
+  }
+
+  #titulo img{
+    width: 70px;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  #titulo h1{
+    margin-left: 700px;
+    padding-top: 15px;
+  }
+
+  .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 20px 0;
+  }
+
+  .productos {
+    padding: 15px;
+    margin: 15px;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+  }
+
+  /* Imágenes */
+.productos img {
+    width: 300px;
+  }
+
+  /* Footer */
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer h3 {
+    margin-top:10px;
+    margin-bottom:20px;
+    text-align: center;
+  }
+
+  footer section {
+    margin-bottom: 20px;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+  }
+
+  /* Imagen del mapa */
+footer img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
