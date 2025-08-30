@@ -133,6 +133,25 @@ footer img {
     border-radius: 5px;
   }
 /* ------------------------------------------------------ */
+  #copyright {
+    background-color: rgb(0, 0, 0);
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  #copyright p {
+    color:#ffffff;
+    font-size: 15px;
+  }
+
+  #copyright img {
+    width: 115px;
+    height: auto;
+  }
+
+/* ------------------------------------------------------ */
   /* PAGINA DE PRODUCTO INDIVIDUAL */
 
   #productoIndividual{
