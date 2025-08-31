@@ -104,33 +104,35 @@
 
 /* ------------------------------------------------------ */
 
-  /* Footer */
-footer {
-    padding-top: 20px;
+  footer {
+    padding: 30px 0;
     display: flex;
     justify-content: center;
     background-color:rgb(210, 203, 203);
+    gap: 80px;
+  }
+
+  footer img{
+    height: 70px;
+    margin-top: 15px;
   }
 
   footer h3 {
-    margin-top:10px;
-    margin-bottom:20px;
+    margin:10px 0;
+  }
+
+  footer li{
+    list-style: none;
+    margin-bottom: 15px;
+  }
+
+  footer #arrepentimiento{
+    margin-top: 40px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
     text-align: center;
-  }
-
-  footer section {
-    margin-bottom: 20px;
-    border-width: 10px;
-    border-color: rgb(0, 0, 0);
-    margin-right: 80px;
-  }
-
-  /* Imagen del mapa */
-footer img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 5px;
+    width: 65%;
   }
 /* ------------------------------------------------------ */
   #copyright {
