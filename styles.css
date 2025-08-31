@@ -15,17 +15,9 @@
 
 /* ------------------------------------------------------ */
 
-  #promociones h1{
-    color: #000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  #promociones img{
+    width: 100%;
   }
-
-  #promociones a{
-    text-decoration: none;
-  }
-
   /* ------------------------------------------------------ */
 
   #navegador{
@@ -55,7 +47,7 @@
     display: flex;
   }
 
-    #navegador div img{
+  #navegador div img{
     width: 50px;
   }
 
@@ -205,7 +197,8 @@
 
     @media screen and (max-width: 400px) {
     #promociones{
-      font-size: 5px;
+      content: url("Fotos/fotosMobile/headertop-mobile.png");
+      width: 100%;
     }
 
     #navegador img{
@@ -218,6 +211,14 @@
 
     #navegador div img{
       width: 40px;
+    }
+
+    #promocion2 img{
+      content: url("Fotos/fotosMobile/promocion2Mobile.png");
+    }
+
+    #carrusel img{
+      content: url("Fotos/fotosMobile/publicidadMobile.jpg");
     }
 
     footer {
@@ -234,4 +235,13 @@
     #copyright img{
       display: none;
     }
+
+    #copyright {
+      padding: 40px 20px;
+    }
+
+    #copyright p {
+      font-size: 10px;
+    }
+
   }
