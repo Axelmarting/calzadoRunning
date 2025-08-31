@@ -1,7 +1,6 @@
 Prioridad: 
 usar mediaqueries para hacer responsive. fecha: 30-8
-arreglar medidas nav
 
 Secundario: 
 - Terminar de configurar distintas paginas. fecha: 30-8
-- configurar para que se abra desde otra pestania solo desde el index. fecha: 30-8
+- CONFIGURAR RESPONSIVE IPAD PRODUCTO INDIVIDUAL
