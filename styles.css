@@ -28,6 +28,10 @@
     padding: 30px;
   }
 
+  #navegador #menuHamburguesa{
+    display: none;
+  }
+
   #navegador img{
     width: 210px;
     height: auto;
@@ -205,6 +209,20 @@
       display: none;
     }
 
+    #navegador #menuHamburguesa{
+      display: block;
+      width: 80px;
+    }
+
+    #navegador{
+      justify-content: flex-start;
+      gap: 15px;
+    }
+
+    #navegador div{
+      margin-left: auto;
+    }
+
     footer {
       flex-direction: column;
       text-align: center;
@@ -233,8 +251,10 @@
       width: 100%;
     }
 
+    /* barra navegadora */
+
     #navegador img{
-      width: 130px;
+      width: 110px;
     }
 
     #navegador ul{
@@ -242,8 +262,29 @@
     }
 
     #navegador div img{
+      width: 35px;
+    }
+
+    #navegador ul{
+      display: none;
+    }
+
+    #navegador #menuHamburguesa{
+      display: block;
       width: 40px;
     }
+
+    #navegador{
+      justify-content: flex-start;
+      gap: 5px;
+      padding: 20px 5px;
+    }
+
+    #navegador div{
+      margin-left: auto;
+    }
+
+    /* cartel promocion verde*/
 
     #promocion2 img{
       content: url("Fotos/fotosMobile/promocion2Mobile.png");
