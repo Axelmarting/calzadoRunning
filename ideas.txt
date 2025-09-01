@@ -1,6 +1,1 @@
-Prioridad: 
-usar mediaqueries para hacer responsive. fecha: 30-8
-
-Secundario: 
-- Terminar de configurar distintas paginas. fecha: 30-8
-- CONFIGURAR RESPONSIVE IPAD PRODUCTO INDIVIDUAL
+Listas las ideas por ahora.
